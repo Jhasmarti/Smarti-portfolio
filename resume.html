@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Smarti Cv</title>
+	<script src="https://kit.fontawesome.com/c2ca381ce4.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+		}
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: black;
+		}
+		
+		.container_body{
+			width: 100%;
+			border-radius: 10px;
+			max-width: 1000px;
+			min-height: 100vh;
+			background-color: rgba(200, 233, 200,0.99);
+			
+			display: grid;
+			grid-template-columns: 2fr 5fr;
+
+		}
+		.container_left{
+			position: initial;
+
+		}
+		.container_right{
+			position: initial;
+
+			padding:20px;
+		}
+		.h2{
+			background-color: rgb(4,96,150);
+		}
+		.image,.contact,.skills,.language,.hobbies,.title,.summary,.experience,.education,.project{
+			margin-bottom: 30px;
+		
+		}
+		 ul li{
+				list-style: none;
+				padding: 3px;
+		}
+		.skills li {
+			font-size: 0.81em;
+		}
+
+		img{
+			margin: 10px;
+			border-radius: 50%;
+			width: 100px;
+			border: 2px solid rgba(255, 255, 255, 0.3);
+			height: 100px;
+			box-shadow:  3px 10px 26px 5px black;
+		}
+		.box{
+			background-color: white;
+			height: 90vh;
+			border-radius: 20px;
+			
+		}
+		.text{
+			margin: 20px;
+		}
+		.text1{
+			margin: 20px;
+			padding: 20px;
+		}
+		.Experience p{
+			font-size: 12px;
+		}
+		.Experience ul li:before{
+			content: '✓  ';
+			font-size: 13px;
+			color: red;
+  			font-weight: bold;
+
+			}
+		.Education b{
+			font-size: 12px;
+			font-weight: 900;
+		}
+		a{
+			color: blue;
+			
+		}
+		a:hover{
+			color: black;
+		}
+		i{
+			border-radius: 50%;
+			background-color: white;
+			padding: 6px;
+		}
+		b{
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="container_body">
+			<div class="container_left">
+				<div class="image">
+					<img src="smarti.JPG" alt="image">
+				</div>
+				<div class="text">
+					<div class="contact">
+					<h2>Contact</h2>
+					<p><i class="fas fa-envelope"></i><b> Email Id: </b> smartijha01@gmail.com</p>
+					<p><i class="fa fa-phone"></i><b> Mobile number:</b> 9416315618</p>
+					<a href="https://smartijha-webportfolio.on.drv.tw/portfolio/main.html">Smarti Portfolio</a><br><br>
+
+					<span><hr></span><br>
+					<h3>Social </h3>
+					
+					<ul>
+						<li>
+							<i class="fa fa-facebook"></i>  Facebook
+						</li>
+						<li>
+							<i class="fa fa-whatsapp"></i> whatsapp
+						</li>
+						<li>
+							<i class="fa fa-instagram"></i> Instagram
+						</li>
+						<li>
+							<i class="fa fa-twitter"></i> Twitter
+						</li>
+					</ul>
+					<span><hr></span>
+
+
+
+				</div>
+				<div class="skills">
+					<h2>Skills</h2>
+               	 <ul>
+               	 	
+                    <li><b>Programming Languages : </b>
+                      Python, Java, C++, C , Visual Basic</li>
+                    <li><b>Web designing : </b><br>HTML5, CSS3, 
+                      JavaScript, Bootstrap, JQuery</li>
+                    <li><b>Data Science & analysts:</b> MySql, Data Visulasization, Machine learning, Deep Learning</li>
+                   	<li><b>Miscellaneous: </b>Pandas, NumPy, PowerBi, Advanced Excel
+                	</ul>
+            	</div>
+            
+				</div>
+       	 	</div>
+
+
+			<div class="container_right">
+				<div class="box">
+					<div class="text1">
+						<div class="name">
+                	<h1>Smarti</h1>
+           			</div>
+            	<div class="title">
+               		 <p>Web Developer</p>
+            	</div>
+            	<div class="Summary">
+                	<h2>Objective</h2>
+                	<p>To secure a challenging position in a 
+                  reputable organization
+                    to expand my learning knowledge and skill.To be a part of an organization where get a chance to use my knowledge and skills to contribute to the organization’s progress and myself.
+                	</p>
+                	<br>
+                	<hr>
+            	</div>
+            	<div class="Experience">
+                	<h2>Professional Training</h2>
+                	<h4>MENTORTCA TECHNOLOGY PVT. LTD.</h4>
+                	<p>August 2021 to Present</p>
+                	<ul>	
+                    	<li>HTML, CSS, JavaScript, Bootstrap, and jQuery</li>
+                		<li>Python, SQL, Advanced Excel, C, C++</li>
+                		<li>Data Science</li>
+                	</ul><br>
+               	 	<hr>
+
+            	</div>
+            	<div class="Education">
+            	    <h2>Education</h2>
+                		<ul><li>PROFESSIONAL DIPLOMA IN WEB DESIGNING (TCA)</li>
+                			<li>B.CA (pursuing) (Gurugram University) <b>2020 to current</b></li>
+		<li>12th pass from C.B.S.E(Shri Ram Sr. Sec. School)<b> (2019)</b></li>
+		<li>10th pass from C.B.S.E(Shri Ram Sr. Sec. School) <b>(2017)</b></li>
+		<li>Certificate course in fundamentals of digital marketing (Google digital unlocked) <b>(28/03/2021)</b></li>
+		<li>Certificate of state-level inter-college IT Quiz competition<b> (10/05/2022)</b></li>
+                    		
+           	   	</div>
+                <div class="project">
+                	<ul>
+                     <li>
+                         <h2>Project1</h2>
+                         <p>This project is based on html 
+                          & used React</p>
+                     </li>
+                     <li>
+                         <h2>Project2</h2>
+                         <p>This project is based on html 
+                          & used React</p>
+                     </li>
+                    </ul>
+                </div>
+					
+					</div>
+					
+				</div>   
+			</div>
+		</div>
+	</div>
+</body>
+</html>
